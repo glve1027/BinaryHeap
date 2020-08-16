@@ -96,7 +96,7 @@ class BinaryHeap<E: Comparable> {
             if (currentValue >= childValue) { break }
             // 6. change value
             self.elements[index] = childValue
-            // 6. change index
+            // 7. change index
             index = childIndex
         }
         self.elements[index] = currentValue
